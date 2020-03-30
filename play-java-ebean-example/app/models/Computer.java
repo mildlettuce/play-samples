@@ -27,5 +27,8 @@ public class Computer extends BaseModel {
     @ManyToOne
     public Company company;
     
+    
+    public String npe = null;
+    
 }
 

@@ -5,6 +5,7 @@
 create table company (
   id                        bigint not null,
   name                      varchar(255),
+  npe                       varchar(255),
   constraint pk_company primary key (id))
 ;
 

@@ -5,7 +5,6 @@
 create table company (
   id                        bigint not null,
   name                      varchar(255),
-  npe                       varchar(255),
   constraint pk_company primary key (id))
 ;
 
@@ -15,6 +14,7 @@ create table computer (
   introduced                timestamp,
   discontinued              timestamp,
   company_id                bigint,
+  npe                       varchar(255),
   constraint pk_computer primary key (id))
 ;
 

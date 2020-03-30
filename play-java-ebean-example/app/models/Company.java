@@ -17,7 +17,6 @@ public class Company extends BaseModel {
     @Constraints.Required
     public String name;
     
-    public String npe = null;
 
 }
 
